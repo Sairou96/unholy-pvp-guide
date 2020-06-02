@@ -17,9 +17,11 @@ h1 {
     color: white;
     text-align: justify;
     border: 3px ridge rgb(45, 106, 156);
-    width: 40%;
+    width: 30%;
     margin: auto;
     padding: 15px;
+    max-width: 607.19px;
+    margin-bottom: 30px;
 }
 .general_information:before {
     content: '';
@@ -41,4 +43,7 @@ h1 {
 }
 p {
     color: rgb(216, 216, 216);
+}
+div.heading_container h2 {
+    display: inline;
 }

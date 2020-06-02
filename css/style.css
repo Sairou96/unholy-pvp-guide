@@ -1,17 +1,28 @@
 body {
-    background-color: rgb(40, 64, 97);
+    margin: auto;
+    padding: 15px;
+    background-image: url(https://www.carbonbrief.org/wp-content/uploads/2015/04/ice-caves-iceland-dark-ice.jpg);
+    background-repeat: no-repeat;
+    background-position: center top, center bottom;
+    background-size: cover;
+    position: relative;
+    z-index: -3;
 }
-
-
+#main {
+    max-width: 1700px;
+    margin: auto;
+    background-color: rgb(40, 64, 97);
+    position: relative;
+    z-index: -2;
+}
 h1 {
     color:white;
-    background-color: rgb(45, 106, 156);
+    background-image: linear-gradient(rgba(0, 153, 255, 0.459), rgb(40, 64, 97));
     text-align: center;
     font-size: 38px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     margin-top: auto;
 }
-
 .general_information {
     position: relative;
     color: white;
@@ -59,6 +70,7 @@ div.heading_container h2 {
 .heading_container>span {
     font-size: 30px;
     color: white;
+    padding-left: 15px;
 }
 .strength_list {
     font-size: 20px;
@@ -90,7 +102,33 @@ ul {
     margin-top: 0px;
     margin-bottom: 15px;
     padding-left: 45px;
+    padding-bottom: 15px;
+    padding-right: 15px;
 }
 .guide_content_list li {
     padding: 5px;
+}
+a:link {
+    color: rgb(0, 179, 250);
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(0, 179, 250);
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(0, 217, 255);
+    text-decoration: none;
+}
+a:active {
+    color: white;
+    text-decoration: none;
+}
+#footer {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-image: linear-gradient(rgb(40, 64, 97), rgba(0, 153, 255, 0.459));
+    padding: 15px;
+    margin: auto;
 }

@@ -132,3 +132,18 @@ a:active {
     padding: 15px;
     margin: auto;
 }
+.toc_two_columns {
+    justify-content: space-between;
+    display: flex;
+}
+.toc {
+    position: relative;
+    color: white;
+    text-align: justify;
+    border: 3px ridge rgb(45, 106, 156);
+    width: 30%;
+    margin: auto;
+    padding: 15px;
+    max-width: 895.2px;
+    margin-bottom: 30px;
+}

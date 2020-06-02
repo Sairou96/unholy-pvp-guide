@@ -134,7 +134,7 @@ a:active {
 }
 .toc_two_columns {
     justify-content: space-between;
-    display: flex;
+    margin: auto;
 }
 .toc {
     position: relative;
@@ -166,4 +166,33 @@ a:active {
     font-size: 30px;
     margin: auto;
     padding: 15px;
+}
+.toc li>a {
+    display: block;
+    width: 100%;
+    border: 1px solid rgb(0, 179, 250);
+    border-radius: 3px;
+    padding: 5px;
+    text-align: justify;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 220px;
+    margin: auto;
+}
+.toc li {
+    list-style: none;
+    margin: auto;
+    display: flex;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 0px;
+}
+ul {
+    padding-inline-start: 0px;
+}
+.toc_two_columns>div {
+    width: calc(50% - 10px);
+    display: inline-block;
 }

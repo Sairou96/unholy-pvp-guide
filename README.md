@@ -1,0 +1,3 @@
+Hello everyone!
+
+As my first real project, I would like to create a website that will contain a simplified copy of the Unholy Death Knight PvP Guide found on the icy-veins website. To anyone unfamiliar with what is this about, Death Knight is a hero class from the succesful mmorpg World of Warcraft. Unholy is a specialization of the class, and PvP means player versus player. It is a guide for players on how to play the Death Knight class in PvP.

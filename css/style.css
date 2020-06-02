@@ -40,10 +40,57 @@ h1 {
 }
 .general_information>span {
     font-size: 30px;
+    margin: auto;
+    padding: 15px;
 }
 p {
     color: rgb(216, 216, 216);
+    font-size: 20px;
+    margin: auto;
+    padding: 15px;
 }
 div.heading_container h2 {
     display: inline;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin: auto;
+}
+.heading_container>span {
+    font-size: 30px;
+    color: white;
+}
+.strength_list {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 45px;
+}
+.strength_list li:before {
+    content: "+ ";
+    color: lime;
+    font-weight: bold;
+}
+.weakness_list {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 45px;
+}
+.weakness_list li:before {
+    content: "- ";
+    color: red;
+    font-weight: bold;
+}
+ul {
+    color: rgb(216, 216, 216)
+}
+.guide_content_list {
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    padding-left: 45px;
+}
+.guide_content_list li {
+    padding: 5px;
 }
